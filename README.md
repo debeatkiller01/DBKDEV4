@@ -1,42 +1,20 @@
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-# DBKDEV 🚀
+# Run and deploy your AI Studio app
 
-> Professional portfolio website showcasing AI applications, SaaS products, and full-stack web development projects.
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/f3978913-c004-4b91-9a94-4789ff035c9f
 
-## 🌟 Overview
+## Run Locally
 
-DBKDEV is a production-grade portfolio application engineered to provide seamless user experiences through modern web technologies, modular architecture, and advanced AI-powered web solutions.
+**Prerequisites:**  Node.js
 
----
 
-## 🛠️ Tech Stack
-
-*   **Frontend:** React, TypeScript, Vite, Tailwind CSS
-*   **Routing & State:** React Router, Custom Hooks
-*   **Deployment:** Netlify / GitHub
-
----
-
-## ✨ Key Features
-
-*   **Responsive UI/UX:** Fully responsive design styled with Tailwind CSS.
-*   **Modular Architecture:** Clean component structure (`components`, `data`, `utils`) for easy maintenance.
-*   **Performance:** Optimized asset loading and build configuration via Vite.
-
----
-
-## 📁 Repository Structure
-
-```text
-├── public/               # Static assets and favicons
-├── src/
-│   ├── assets/           # Media files
-│   ├── components/       # Reusable UI components
-│   ├── data/             # Project data sources
-│   ├── utils/            # Custom hooks and helpers (e.g., useSEO)
-│   ├── App.tsx           # Root component
-│   └── main.tsx          # Application entry point
-├── package.json          # Dependencies and scripts
-└── vite.config.ts        # Vite configuration
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

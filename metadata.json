@@ -1,0 +1,6 @@
+{
+  "name": "DBKDEV Portfolio",
+  "description": "Personal portfolio website for DBKDEV featuring AI Apps, SaaS & Full-Stack Engineering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
